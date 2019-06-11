@@ -12,7 +12,6 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/bg_circle">
-
         <View
             android:id="@+id/viewEyeBall"
             android:layout_width="30dp"

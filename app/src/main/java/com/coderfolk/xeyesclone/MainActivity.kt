@@ -2,6 +2,7 @@ package com.coderfolk.xeyesclone
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
     private fun keepTheCenterOfVgEyeContainer() {
         xOfEyeContainer = vgContainerEye?.pivotX
         yOfEyeContainer = vgContainerEye?.pivotY
+        Log.d(packageName, xOfEyeContainer.toString() + " " + yOfEyeContainer.toString())
     }
 
     @SuppressLint("ClickableViewAccessibility")
